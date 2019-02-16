@@ -1,0 +1,45 @@
+.social-media-icons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: -41px;
+
+  .social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 157px;
+    height: 1.35rem;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .icon {
+      display: flex;
+      flex-direction: column;
+      width: 40px;
+      font-size: 1.3rem;
+      text-align: center;
+      transition: 0.2s ease;
+      -webkit-transition: 0.2s ease;
+      cursor: pointer;
+
+      i {
+        margin-bottom: -1px;
+        margin-top: 0px;
+        text-decoration: none;
+        color: $offblack;
+      }
+
+      .icon2 {
+        padding-top: 10px;
+        color: $accentOne;
+      }
+
+      &:hover {
+        -webkit-transform: translateY(-150%);
+        position: relative;
+      }
+    }
+  }
+}

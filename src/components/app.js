@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Navbar from "./navbar";
+import SocialIcons from "./socialMediaIcons";
+import Home from "./home";
 
 export default class App extends Component {
   render() {
@@ -8,25 +11,21 @@ export default class App extends Component {
       <div className='app-page'>
         <div className="colorblock"></div>
 
-        <div className="app">
-          <div className="leftside">
-            <Navbar/>
-          </div>
+        <SocialIcons/>
 
-          <div className="rightside">
-            <div className="container"> 
-              <div className="image-block">
-                <div className="image-block-left">
-                  <img src="/assets/Annelise-June.jpg" alt="Annelise"></img>
-                </div>
-
-                <div className="image-block-right">
-                  <img src="/assets/aandj.jpg" alt="Annelise and Jake"></img>
-                </div>
-              </div>
+        <BrowserRouter>
+          <div className="app">
+            <div className="leftside">
+              <Navbar/>
+            </div>
+            
+            <div className="rightside">
+              <Switch>
+                <Route exact path="/" component={Home} />
+              </Switch>
             </div>
           </div>
-        </div>
+        </BrowserRouter>
       </div>
     );
   }

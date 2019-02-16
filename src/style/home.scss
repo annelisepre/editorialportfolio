@@ -1,4 +1,6 @@
-.homepage {
+.home-page {
+  animation: fadeUp 1s ease-out;
+
   .container {
     font-family: $bodyfont;
     font-weight: 300;
@@ -12,20 +14,19 @@
     padding-top: 175px;
 
     .image-block {
-      animation: fadeIn 1s ease-out;
       display: grid;
       grid-template-columns: 1fr 0.5fr 2fr;
       grid-template-rows: 0.25fr 1fr 0.05fr;
       height: auto;
-      width: 67vw;
+      width: 100%;
       margin-right: 0px;
 
       .image-block-left {
         grid-column: 1 / span 2;
         grid-row: 1 / span 2;
-        height: 100%;
         background-size: cover; /* <-- background size */
         background-position: center; /* <-- background position */
+        height: auto;
         z-index: 1;
 
         img {
@@ -49,6 +50,77 @@
           height: auto;
         }
       }
+
+      .homepage-arrows {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 41px;
+        margin-left: 27vw;
+
+        img {
+          height: 25px;
+          margin: 10px;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+
+      .counter {
+        font-family: $bodyfont;
+        font-size: 1.1rem;
+        font-weight: 300;
+        text-align: right;
+        margin-top: 41px;
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -17vw;
+    margin-top: -7vh;
+    width: 100%;
+
+    .aboutme-header {
+      align-self: flex-start;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-family: $bodyfont;
+      font-size: 2vw;
+      font-weight: 300;
+      height: 143px;
+
+      .blockoutline {
+        outline: 1px solid $accentOne;
+
+        p {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-right: 27px;
+          padding-left: 27px;
+          height: 143px;
+          margin-top: 17px;
+          margin-left: 17px;
+          margin-bottom: -17px;
+          margin-right: -17px;
+          background-color: $accentTwo;
+        }
+      }
+    }
+
+    .about-me-blurb {
+      text-align: center;
+      font-size: 1.2vw;
     }
   }
 }
