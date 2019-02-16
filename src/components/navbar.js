@@ -16,10 +16,30 @@ export default class Navbar extends Component {
         </div>
 
         <div className="nav-bottomside">
-          <NavLink exact to="/" activeClassName="navlink-active">HOME</NavLink>
-          <NavLink to="/index" activeClassName="navlink-active">PORTFOLIO</NavLink>
-          <NavLink to="/index" activeClassName="navlink-active">RESUME</NavLink>
-          <NavLink to="/index" activeClassName="navlink-active">CONTACT</NavLink>
+          <NavLink exact to="/" activeClassName="navlink-active navlink">
+            HOME
+            <div className="line"/>
+          </NavLink>
+
+          <NavLink exact to="/about" activeClassName="navlink-active navlink">
+            ABOUT
+            <div className="line"/>
+          </NavLink>
+
+          <NavLink to="/portfolio" activeClassName="navlink-active navlink">
+            PORTFOLIO
+            <div className="line"/>
+          </NavLink>
+
+          <NavLink to="/resume" activeClassName="navlink-active navlink">
+            RESUME
+            <div className="line"/>
+          </NavLink>
+
+          <NavLink to="/contact" activeClassName="navlink-active navlink">
+            CONTACT
+            <div className="line"/>
+          </NavLink>
         </div>
       </div>
     );

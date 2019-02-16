@@ -8,14 +8,14 @@
 
 
   .nav-topside {
-    margin-top: -13vh;
+    margin-top: -11vh;
     border-bottom: 3px solid $mainOne;
     width: 23vw;
 
     h1 {
       font-family: $titlefont;
       color: $mainOne;
-      font-size: 3.5rem;
+      font-size: 3.1rem;
       font-weight: 100;
     }
 
@@ -38,15 +38,32 @@
 
     .navlink-active {
       color: $accentOne;
+
+      .line {
+        width: 137px;
+        height: 14px;
+        border-bottom: 1px solid $accentOne;
+        margin-left: 7px;
+        z-index: 0;
+      }
+    }
+
+    .navlink {
+      display: flex;
+      justify-content: flex-start;
     }
 
     a {
       font-family: $bodyfont;
+      font-weight: 100;
+      letter-spacing: .1rem;
       text-decoration: none;
       color: $mainOne;
-      height: 43px;
-      font-size: 1.3rem;
+      margin-top: 11px;
+      margin-bottom: 11px;
+      font-size: 1.1rem;
       transition: 0.3s;
+      height: 21px;
 
       &:hover {
         color: $accentOne;
