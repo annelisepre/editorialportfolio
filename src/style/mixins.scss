@@ -1,11 +1,26 @@
-@keyframes fadeUp {
+@keyframes fadeIn {
   from {
-    transform: translate3d(0, 5%, 0);
+    // transform: translate3d(0, 5%, 0);
     opacity: 0;
   }
 
   to {
-    transform: translate3d(0, 0, 0);
+    // transform: translate3d(0, 0, 0);
     opacity: 1;
   }
+}
+
+@font-face {
+  font-family: 'Sham';
+  src: url(Shamery.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MSerif';
+  src: url(MargoSerif-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MScript';
+  src: url(MargoScript-Regular.ttf) format('truetype');
 }

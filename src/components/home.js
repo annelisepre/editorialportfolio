@@ -68,9 +68,7 @@ export default class Home extends Component {
 
         <div className="about-me">
           <div className="aboutme-header">
-            <div className="blockoutline">
-              <p>Hi, I’m Annelise!<br/>(pronounced “on-uh-lease”)</p>
-            </div>
+            <p>build what you believe<span>build what you believe</span></p>
           </div>
         </div>
       </div>

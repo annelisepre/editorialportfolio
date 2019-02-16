@@ -11,7 +11,7 @@ export default class Navbar extends Component {
           </div>
             <br/>
           <div className="lastname">
-            <h1>PRECIADO</h1>
+            <h1>preciado</h1>
           </div>
         </div>
 
