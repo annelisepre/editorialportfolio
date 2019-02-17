@@ -4,8 +4,31 @@ export default class About extends Component {
   render() {
     return (
       <div className='about-page'>
-        <h1>ARTIST &</h1>
-        <h1>SOFTWARE DEVELOPER</h1>
+        <div className="top-side">
+          <div className="left-side">
+            <img src="/assets/portraitannelise.JPG"/>
+          </div>
+
+          <div className="right-side">
+            <div className="heading">
+              <span>SOFTWARE DEVELOPER</span>
+              <p>& artist</p>
+            </div>
+
+            <div className="paragraph">
+              <p>Alohomora lumos quietus imperius patronum momentum. Exume serpensortia concealment stupefy. Aparecium funnunculus locomotor petrificus evanesco fidelius locomotor.</p>
+              <p>Tarantallegra expecto patronum incarcerous hover mortis incantatem immobilus petrificus mortis aparecium. Legilimens mortis lacarnum incarcerous totalus lacarnum sonorus engorgio leviosa sonorus leviosa. Serpensortia totalus leviosa quietus. Stupefy expecto reducio homorphus lacarnum totalus mobilicorpus arania lacarnum expecto mobilicorpus.</p>
+              <p>Aparecium kedavra evanesco totalus petrificus. Alohomora locomotor levicorpus totalus rictusempra.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bottom-side">
+          <div className="quote-box">
+            <p><span>"</span>cause everything you want is right infront of you,
+            and you see the  <span>impossible</span>  its coming <span>true"</span></p>
+          </div>
+        </div>
       </div>
     );
   }
