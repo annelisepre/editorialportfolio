@@ -48,16 +48,16 @@ export default class Home extends Component {
 
             <div className="arrows homepage-arrows">
               <div className="left-arrow">
-                <img onClick={() => this.subCounter()} src="/assets/left-black.png"></img>
+                <img onClick={() => this.subCounter()} src="/assets/arrow-left.png"></img>
+              </div>
+
+              <div className="counter">
+                <p>Ø{this.state.counter} / Ø{this.state.imagesLeft.length}</p>
               </div>
 
               <div className="right-arrow">
-                <img onClick={() => this.addCounter()} src="/assets/right-black.png"></img>
+                <img onClick={() => this.addCounter()} src="/assets/arrow-right.png"></img>
               </div>
-            </div>
-
-            <div className="counter">
-              <p>Ø{this.state.counter} / Ø{this.state.imagesLeft.length}</p>
             </div>
 
             <div className="image-block-right">

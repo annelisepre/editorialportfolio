@@ -26,8 +26,8 @@ export default class SocialIcons extends React.Component {
           </div>
 
           <div className="icon">
-          <a href="https://www.hackerrank.com/ajunepre?hr_r=1" target="_blank"><i class="fab fa-hackerrank"></i></a>
-          <a href="https://www.hackerrank.com/ajunepre?hr_r=1" target="_blank"><i class="fab fa-hackerrank icon2"></i></a>
+          <a href="https://www.hackerrank.com/ajunepre?hr_r=1" target="_blank"><i className="fab fa-hackerrank"></i></a>
+          <a href="https://www.hackerrank.com/ajunepre?hr_r=1" target="_blank"><i className="fab fa-hackerrank icon2"></i></a>
           </div>
         </div>
       </div>

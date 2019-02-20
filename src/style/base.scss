@@ -1,5 +1,6 @@
 .app-wrapper {
   margin: -8px;
+  height: 98vh;
 }
 
 .app-page {
@@ -20,6 +21,7 @@
 }
 
 .app {
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
 
@@ -27,3 +29,4 @@
     width: 66vw;
   }
 }
+

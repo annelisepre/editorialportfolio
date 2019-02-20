@@ -17,7 +17,7 @@ export default class About extends Component {
 
             <div className="paragraph">
               <p>Alohomora lumos quietus imperius patronum momentum. Exume serpensortia concealment stupefy. Aparecium funnunculus locomotor petrificus evanesco fidelius locomotor.</p>
-              <p>Tarantallegra expecto patronum incarcerous hover mortis incantatem immobilus petrificus mortis aparecium. Legilimens mortis lacarnum incarcerous totalus lacarnum sonorus engorgio leviosa sonorus leviosa. Serpensortia totalus leviosa quietus. Stupefy expecto reducio homorphus lacarnum totalus mobilicorpus arania lacarnum expecto mobilicorpus.</p>
+              <p>Tarantallegra expecto patronum incarcerous hover mortis incantatem immobilus petrificus mortis aparecium. Legilimens mortis lacarnum incarcerous totalus lacarnum sonorus engorgio leviosa sonorus leviosa. Serpensortia totalus leviosa quietus. </p>
               <p>Aparecium kedavra evanesco totalus petrificus. Alohomora locomotor levicorpus totalus rictusempra.</p>
             </div>
           </div>
@@ -25,8 +25,7 @@ export default class About extends Component {
 
         <div className="bottom-side">
           <div className="quote-box">
-            <p><span>"</span>cause everything you want is right infront of you,
-            and you see the  <span>impossible</span>  its coming <span>true"</span></p>
+            <p><span>- annelise</span></p>
           </div>
         </div>
       </div>

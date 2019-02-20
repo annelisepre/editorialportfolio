@@ -1,22 +1,25 @@
 .home-page {
   animation: $fadeIn;
+  margin-bottom: -10px;
 
   .container {
     font-family: $bodyfont;
     font-weight: 300;
     text-align: center;
     height: auto;
-    width: 100%;
+    width: 63vw;
+    max-width: 850px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 175px;
+    padding-top: 11vh;
+    margin-right: 0px;
 
     .image-block {
       display: grid;
-      grid-template-columns: 1fr 0.5fr 2fr;
-      grid-template-rows: 0.25fr 1fr 0.05fr;
+      grid-template-columns: .8fr 0.5fr 1.7fr;
+      grid-template-rows: 0.2fr 1.8fr;
       height: auto;
       width: 100%;
       margin-right: 0px;
@@ -55,8 +58,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 41px;
-        margin-left: 27vw;
+        margin-top: 7vh;
+        margin-left: 13vw;
 
         img {
           height: 25px;
@@ -73,9 +76,9 @@
         font-size: 1.1rem;
         font-weight: 300;
         text-align: right;
-        margin-top: 41px;
         margin-right: 20px;
         margin-left: 20px;
+        margin-bottom: 7px;
       }
     }
   }
@@ -85,9 +88,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: -17vw;
-    margin-top: -7vh;
+    margin-left: -11vw;
+    margin-top: 7vh;
     width: 100%;
+    margin-bottom: 0px;
 
     .aboutme-header {
       align-self: flex-start;
@@ -98,7 +102,8 @@
       font-size: 3.3rem;
       font-weight: 300;
       height: 143px;
-      width: 43%;
+      min-width: 400px;
+      max-width: 400px;
       background-color: $accentTwo;
 
       p {

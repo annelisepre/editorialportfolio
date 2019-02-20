@@ -1,11 +1,11 @@
 .about-page {
   animation: $fadeIn;
-  margin-top: 7vh;
+  margin-top:11vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 90%;
+  width: 95%;
 
   .top-side {
     display: flex;
@@ -14,8 +14,13 @@
 
     .left-side {
       margin-right: 2vw;
+      // background-image: url('/assets/portraitannelise.JPG');
+      // background-repeat: no-repeat;
+      // background-size: 100%;
+      // background-position: 50% 50%;
+
       img {
-        height: 63vh;
+        max-width: 345px;
       }
     }
 
@@ -46,10 +51,9 @@
   }
 
   .bottom-side {
-    width: 150%;
-    margin-top: 12vh;
-    align-self: flex-start;
-    margin-left: -25vw;
+    margin-top: 1vh;
+    margin-right: 3vw;
+    align-self: flex-end;
     display: flex;
     justify-content: center;
     align-items: center;

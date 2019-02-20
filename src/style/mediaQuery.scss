@@ -1,0 +1,12 @@
+@media (max-width: 400px) {
+  .app {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .rightside {
+      width: 66vw;
+    }
+  }
+}
