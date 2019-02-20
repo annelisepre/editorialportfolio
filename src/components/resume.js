@@ -157,7 +157,13 @@ export default class Resume extends Component {
     return (
       <div className='resume-page'>
         <div className='topside'>
-          <h3>experience</h3>
+          <div className='title-and-counter'>
+            <h3>experience</h3>
+
+            <div className="counter">
+              <p>Ø{this.state.counter} / Ø{this.state.experiences.length}</p>
+            </div>
+          </div>
 
           <div className='slideshow-container'>
             <div className='exp-arrow-left' onClick={this.subCounter}>
